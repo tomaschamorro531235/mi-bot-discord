@@ -1,16 +1,15 @@
 {
-  "name": "mibotdiscord",
+  "name": "mi-bot-discord",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mi bot de Discord 24/7",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
-    "discord.js": "^14.22.1",
-    "sqlite3": "^5.1.7"
+    "discord.js": "^14.15.2"
   }
 }
